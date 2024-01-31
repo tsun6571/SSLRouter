@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//ibatis.apache.org//DTD SQL Map Config 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
+
+<sqlMapConfig>
+    <transactionManager type="JDBC">
+        <dataSource type="SIMPLE">
+            <property name="JDBC.Driver" value="oracle.jdbc.driver.OracleDriver"/>
+            <property name="JDBC.ConnectionURL" value="jdbc:oracle:thin:@raoh:1521:TYAMAFDS"/>
+<!--
+            <property name="JDBC.ConnectionURL" value="jdbc:oracle:thin:@t-yama-cent03:1521:XE"/>
+            <property name="JDBC.ConnectionURL" value="jdbc:oracle:thin:@(DESCRIPTION =(ENABLE = BROKEN)(LOAD_BALANCE = OFF)(FAILOVER = ON)(ADDRESS = (PROTOCOL = TCP)(HOST = sfds-db1-vip)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = sfds-db2-vip)(PORT = 1521))(CONNECT_DATA =(SERVICE_NAME = fdsproxy)))"/>
+            <property name="JDBC.ConnectionURL" value="jdbc:oracle:thin:@(DESCRIPTION =(ENABLE = BROKEN)(LOAD_BALANCE = OFF)(FAILOVER = ON)(ADDRESS = (PROTOCOL = TCP)(HOST = sfds-db2-vip)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = sfds-db1-vip)(PORT = 1521))(CONNECT_DATA =(SERVICE_NAME = fdsproxy)))"/>
+            <property name="JDBC.ConnectionURL" value="jdbc:oracle:thin:@pilot-fds-db.verisign.co.jp:1521:pltfds01"/>
+-->
+            <property name="JDBC.Username" value="ssl_router"/>
+            <property name="JDBC.Password" value="ssl_router"/>
+        </dataSource>
+    </transactionManager>
+
+    <sqlMap resource="jp/co/verisign/sslrouter/Sql.xml"/>
+
+</sqlMapConfig>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap>
+    <insert id="insertTransactionLog" parameterClass="jp.co.verisign.sslrouter.Transaction">
+        <![CDATA[
+        insert into ssl_router_transaction_log_t
+            (
+                log_datetime,
+                log_appserver,
+                log_client_cert_info,
+                log_elapsed_time_ms,
+                log_level,
+                log_data
+            )
+            values
+            (
+                #DateTime#,
+                #AppServer#,
+                #ClientCertInfo#,
+                #ElapsedTime#,
+                #LogLevel#,
+                #Log#
+            )
+        ]]>
+    </insert>
+
+    <insert id="insertAuditLog" parameterClass="jp.co.verisign.sslrouter.Audit">
+        <![CDATA[
+        insert into ssl_router_audit_log_t
+            (
+                log_datetime,
+                log_appserver,
+                log_data
+            )
+            values
+            (
+                #DateTime#,
+                #AppServer#,
+                #Log#
+            )
+        ]]>
+    </insert>
+
+    <select id="RouteInfoByClientCertInfoAndRouteFromRouter" parameterClass="jp.co.verisign.sslrouter.RouteInfo" resultClass="jp.co.verisign.sslrouter.RouteInfo">
+        <![CDATA[
+        select
+            id as id,
+            client_cert_info as client_cert_info,
+            route_from_router as route_from_router,
+            route_to_host as route_to_host,
+            route_to_port as route_to_port,
+            log_level as log_level
+        from
+            ssl_router_routing_t
+        where
+            client_cert_info = #client_cert_info# and
+            route_from_router = #route_from_router# and
+            enabled <> 0 and rownum=1
+        order by
+            route_to_host
+        ]]>
+    </select>
+</sqlMap>

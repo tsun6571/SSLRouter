@@ -1,0 +1,88 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 0 (0x0)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=JP, O=VeriSign Japan K.K., OU=IAS Product Development, CN=Y.Tsunoda's CA - G2
+        Validity
+            Not Before: Apr 12 05:01:20 2010 GMT
+            Not After : Apr  9 05:01:20 2020 GMT
+        Subject: C=JP, O=VeriSign Japan K.K., OU=IAS Product Development, CN=Y.Tsunoda's CA - G2
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:c1:73:bd:7f:9e:06:12:87:81:e8:13:fc:cd:fb:
+                    d2:40:3c:0c:a7:68:db:68:6c:04:c4:0e:9f:2b:20:
+                    e5:18:1b:7f:2b:ab:d0:dd:3f:36:e2:8a:0f:06:88:
+                    5c:7e:ff:02:aa:26:d5:e5:92:21:0e:d2:cc:bf:92:
+                    1b:54:c2:ba:7b:5f:63:85:3c:9a:47:ef:56:3c:59:
+                    47:9e:27:7f:22:2a:9a:ee:30:43:14:0f:84:68:f5:
+                    92:c5:c8:9d:b8:b2:86:cd:05:4f:e7:b9:0e:19:c0:
+                    1b:cc:c9:af:ce:ed:82:0a:66:ff:da:08:75:0c:85:
+                    09:34:fe:55:69:f9:eb:c1:d3:9f:a8:86:5d:b7:b0:
+                    31:0f:15:22:a9:e1:5b:7d:05:db:24:b7:21:7a:f4:
+                    ab:2d:ad:1b:82:e5:59:59:ce:cb:dc:7b:80:31:60:
+                    c9:f5:50:f0:73:01:53:cf:1c:e5:11:48:91:68:b4:
+                    44:0b:94:df:a1:21:77:2b:1d:fe:06:12:ce:ee:b5:
+                    a9:c7:db:ae:ff:1a:41:86:13:fa:86:ae:ce:71:9c:
+                    0e:ee:75:c3:65:bc:89:ec:3e:c8:ac:5d:c5:c7:fc:
+                    2f:9b:b9:bc:7d:f5:14:bb:f4:56:dc:c1:e4:c9:33:
+                    77:0e:4a:0e:b0:f9:97:83:58:0a:5d:6f:dd:47:ef:
+                    50:a9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                41:6E:B7:C8:34:3D:9B:95:5B:7D:A2:B5:67:1D:9D:E7:BC:7D:11:2D
+            X509v3 Authority Key Identifier: 
+                keyid:41:6E:B7:C8:34:3D:9B:95:5B:7D:A2:B5:67:1D:9D:E7:BC:7D:11:2D
+                DirName:/C=JP/O=VeriSign Japan K.K./OU=IAS Product Development/CN=Y.Tsunoda's CA - G2
+                serial:00
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+            X509v3 Key Usage: 
+                Certificate Sign, CRL Sign
+            Netscape Cert Type: 
+                SSL CA, S/MIME CA
+    Signature Algorithm: sha1WithRSAEncryption
+        3e:14:dd:e8:18:27:85:2e:bb:70:49:24:86:75:1c:44:a3:52:
+        01:c5:7c:45:ab:79:2f:c5:33:ac:16:54:22:ef:e1:ca:64:8c:
+        1e:fb:2e:9d:cc:63:a0:c6:47:78:a1:b7:ca:8b:cf:96:4f:63:
+        f6:ac:a6:d9:79:3f:7a:dc:91:47:fc:02:ba:7d:d9:5d:df:4a:
+        9f:6a:2c:64:28:2b:78:4c:f9:bd:9f:b1:25:2d:f1:41:59:9e:
+        2c:5d:98:2e:22:c2:6b:ac:63:9b:69:de:04:ce:2d:64:4e:9e:
+        72:e3:4a:07:ee:34:ad:33:18:ec:e3:ac:3d:9b:d0:ba:fa:14:
+        3f:07:f4:35:95:c2:f4:4c:80:e0:9c:69:bc:71:b8:c0:d7:9c:
+        bf:ea:1c:50:f3:8f:f2:1e:88:f0:60:27:cb:76:c3:f5:52:11:
+        22:c0:b6:9c:57:42:36:cc:dc:db:c5:c1:27:89:7f:32:bc:af:
+        a5:b5:b6:34:6f:bf:f1:54:d3:8c:73:64:f1:dc:c3:af:2c:f6:
+        cc:01:70:53:78:a5:d2:3e:53:51:9d:b4:69:84:a1:79:1e:2d:
+        24:6c:dc:32:fe:f7:0a:e8:30:aa:3b:ee:89:f6:ed:ea:25:56:
+        b5:83:fb:59:7c:0b:86:a4:9d:82:14:6f:8b:99:7e:50:e9:cd:
+        56:ec:20:c1
+-----BEGIN CERTIFICATE-----
+MIIEOjCCAyKgAwIBAgIBADANBgkqhkiG9w0BAQUFADBrMQswCQYDVQQGEwJKUDEc
+MBoGA1UEChMTVmVyaVNpZ24gSmFwYW4gSy5LLjEgMB4GA1UECxMXSUFTIFByb2R1
+Y3QgRGV2ZWxvcG1lbnQxHDAaBgNVBAMTE1kuVHN1bm9kYSdzIENBIC0gRzIwHhcN
+MTAwNDEyMDUwMTIwWhcNMjAwNDA5MDUwMTIwWjBrMQswCQYDVQQGEwJKUDEcMBoG
+A1UEChMTVmVyaVNpZ24gSmFwYW4gSy5LLjEgMB4GA1UECxMXSUFTIFByb2R1Y3Qg
+RGV2ZWxvcG1lbnQxHDAaBgNVBAMTE1kuVHN1bm9kYSdzIENBIC0gRzIwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBc71/ngYSh4HoE/zN+9JAPAynaNto
+bATEDp8rIOUYG38rq9DdPzbiig8GiFx+/wKqJtXlkiEO0sy/khtUwrp7X2OFPJpH
+71Y8WUeeJ38iKpruMEMUD4Ro9ZLFyJ24sobNBU/nuQ4ZwBvMya/O7YIKZv/aCHUM
+hQk0/lVp+evB05+ohl23sDEPFSKp4Vt9BdsktyF69KstrRuC5VlZzsvce4AxYMn1
+UPBzAVPPHOURSJFotEQLlN+hIXcrHf4GEs7utanH267/GkGGE/qGrs5xnA7udcNl
+vInsPsisXcXH/C+bubx99RS79FbcweTJM3cOSg6w+ZeDWApdb91H71CpAgMBAAGj
+gegwgeUwHQYDVR0OBBYEFEFut8g0PZuVW32itWcdnee8fREtMIGVBgNVHSMEgY0w
+gYqAFEFut8g0PZuVW32itWcdnee8fREtoW+kbTBrMQswCQYDVQQGEwJKUDEcMBoG
+A1UEChMTVmVyaVNpZ24gSmFwYW4gSy5LLjEgMB4GA1UECxMXSUFTIFByb2R1Y3Qg
+RGV2ZWxvcG1lbnQxHDAaBgNVBAMTE1kuVHN1bm9kYSdzIENBIC0gRzKCAQAwDAYD
+VR0TBAUwAwEB/zALBgNVHQ8EBAMCAQYwEQYJYIZIAYb4QgEBBAQDAgEGMA0GCSqG
+SIb3DQEBBQUAA4IBAQA+FN3oGCeFLrtwSSSGdRxEo1IBxXxFq3kvxTOsFlQi7+HK
+ZIwe+y6dzGOgxkd4obfKi8+WT2P2rKbZeT963JFH/AK6fdld30qfaixkKCt4TPm9
+n7ElLfFBWZ4sXZguIsJrrGObad4Ezi1kTp5y40oH7jStMxjs46w9m9C6+hQ/B/Q1
+lcL0TIDgnGm8cbjA15y/6hxQ84/yHojwYCfLdsP1UhEiwLacV0I2zNzbxcEniX8y
+vK+ltbY0b7/xVNOMc2Tx3MOvLPbMAXBTeKXSPlNRnbRphKF5Hi0kbNwy/vcK6DCq
+O+6J9u3qJVa1g/tZfAuGpJ2CFG+LmX5Q6c1W7CDB
+-----END CERTIFICATE-----

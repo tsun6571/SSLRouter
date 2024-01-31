@@ -1,0 +1,859 @@
+INFO: My name is sslrt1
+2010-07-13 17:29:23,812 [com.ibatis.common.jdbc.SimpleDataSource] Created connection 29346106.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,828 [java.sql.Connection] {conn-100000} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,828 [java.sql.Connection] {conn-100000} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,875 [java.sql.PreparedStatement] {pstm-100001} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,875 [java.sql.PreparedStatement] {pstm-100001} Parameters: [2010-07-13 17:29:23.296, sslrt1, INFO: My name is sslrt1]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,875 [java.sql.PreparedStatement] {pstm-100001} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,875 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: Bind Address is 192.168.110.71
+2010-07-13 17:29:23,875 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,890 [java.sql.Connection] {conn-100002} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,890 [java.sql.Connection] {conn-100002} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,890 [java.sql.PreparedStatement] {pstm-100003} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,890 [java.sql.PreparedStatement] {pstm-100003} Parameters: [2010-07-13 17:29:23.875, sslrt1, INFO: Bind Address is 192.168.110.71]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,890 [java.sql.PreparedStatement] {pstm-100003} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,937 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: Key Store is server/server_keystore2048
+2010-07-13 17:29:23,937 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,937 [java.sql.Connection] {conn-100004} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,937 [java.sql.Connection] {conn-100004} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,937 [java.sql.PreparedStatement] {pstm-100005} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,937 [java.sql.PreparedStatement] {pstm-100005} Parameters: [2010-07-13 17:29:23.937, sslrt1, INFO: Key Store is server/server_keystore2048]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,937 [java.sql.PreparedStatement] {pstm-100005} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:23,968 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: Trust Store is server/server_cacerts
+2010-07-13 17:29:24,046 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,046 [java.sql.Connection] {conn-100006} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,046 [java.sql.Connection] {conn-100006} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,046 [java.sql.PreparedStatement] {pstm-100007} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,046 [java.sql.PreparedStatement] {pstm-100007} Parameters: [2010-07-13 17:29:24.046, sslrt1, INFO: Trust Store is server/server_cacerts]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,046 [java.sql.PreparedStatement] {pstm-100007} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,062 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: Ready for Service
+2010-07-13 17:29:24,609 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,609 [java.sql.Connection] {conn-100008} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,609 [java.sql.Connection] {conn-100008} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,609 [java.sql.PreparedStatement] {pstm-100009} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,609 [java.sql.PreparedStatement] {pstm-100009} Parameters: [2010-07-13 17:29:24.609, sslrt1, INFO: Ready for Service]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,609 [java.sql.PreparedStatement] {pstm-100009} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,625 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: Waiting for connection from client
+2010-07-13 17:29:24,625 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,625 [java.sql.Connection] {conn-100010} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,625 [java.sql.Connection] {conn-100010} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,625 [java.sql.PreparedStatement] {pstm-100011} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,625 [java.sql.PreparedStatement] {pstm-100011} Parameters: [2010-07-13 17:29:24.625, sslrt1, INFO: Waiting for connection from client]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,625 [java.sql.PreparedStatement] {pstm-100011} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:24,671 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: receive client!
+2010-07-13 17:29:52,468 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,468 [java.sql.Connection] {conn-100012} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,484 [java.sql.Connection] {conn-100012} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,484 [java.sql.PreparedStatement] {pstm-100013} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,484 [java.sql.PreparedStatement] {pstm-100013} Parameters: [2010-07-13 17:29:52.468, sslrt1, INFO: receive client!]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,484 [java.sql.PreparedStatement] {pstm-100013} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,484 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] Java version: 1.6.0_20
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:72)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] Java vendor: Sun Microsystems Inc.
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:73)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] Java class path: dist\SSLRouter.jar
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:74)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] Operating system name: Windows XP
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:75)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] Operating system architecture: x86
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:76)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] Operating system version: 5.1
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:77)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] SUN 1.6: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS keystore; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:82)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] SunRsaSign 1.5: Sun RSA signature provider
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:82)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] SunJSSE 1.6: Sun JSSE provider(PKCS12, SunX509 key/trust factories, SSLv3, TLSv1)
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:82)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] SunJCE 1.6: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:82)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] SunJGSS 1.0: Sun (Kerberos v5, SPNEGO)
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:82)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] SunSASL 1.5: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5)
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:82)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] XMLDSig 1.0: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory)
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:82)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] SunPCSC 1.6: Sun PC/SC provider
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:82)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.HttpClient] SunMSCAPI 1.6: Sun's Microsoft Crypto API provider
+ : org.apache.commons.httpclient.HttpClient.<clinit>(HttpClient.java:82)
+2010-07-13 17:29:52,515 [org.apache.commons.httpclient.params.DefaultHttpParams] Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+ : org.apache.commons.httpclient.params.DefaultHttpParams.setParameter(DefaultHttpParams.java:151)
+2010-07-13 17:29:52,531 [org.apache.commons.httpclient.params.DefaultHttpParams] Set parameter http.protocol.version = HTTP/1.1
+ : org.apache.commons.httpclient.params.DefaultHttpParams.setParameter(DefaultHttpParams.java:151)
+2010-07-13 17:29:52,531 [org.apache.commons.httpclient.params.DefaultHttpParams] Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+ : org.apache.commons.httpclient.params.DefaultHttpParams.setParameter(DefaultHttpParams.java:151)
+2010-07-13 17:29:52,531 [org.apache.commons.httpclient.params.DefaultHttpParams] Set parameter http.protocol.cookie-policy = default
+ : org.apache.commons.httpclient.params.DefaultHttpParams.setParameter(DefaultHttpParams.java:151)
+2010-07-13 17:29:52,531 [org.apache.commons.httpclient.params.DefaultHttpParams] Set parameter http.protocol.element-charset = US-ASCII
+ : org.apache.commons.httpclient.params.DefaultHttpParams.setParameter(DefaultHttpParams.java:151)
+2010-07-13 17:29:52,531 [org.apache.commons.httpclient.params.DefaultHttpParams] Set parameter http.protocol.content-charset = ISO-8859-1
+ : org.apache.commons.httpclient.params.DefaultHttpParams.setParameter(DefaultHttpParams.java:151)
+2010-07-13 17:29:52,531 [org.apache.commons.httpclient.params.DefaultHttpParams] Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@141b571
+ : org.apache.commons.httpclient.params.DefaultHttpParams.setParameter(DefaultHttpParams.java:151)
+2010-07-13 17:29:52,531 [org.apache.commons.httpclient.params.DefaultHttpParams] Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+ : org.apache.commons.httpclient.params.DefaultHttpParams.setParameter(DefaultHttpParams.java:151)
+INFO: Waiting for connection from client
+2010-07-13 17:29:52,546 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,546 [java.sql.Connection] {conn-100014} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,546 [java.sql.Connection] {conn-100014} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,546 [java.sql.PreparedStatement] {pstm-100015} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,546 [java.sql.PreparedStatement] {pstm-100015} Parameters: [2010-07-13 17:29:52.546, sslrt1, INFO: Waiting for connection from client]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,546 [java.sql.PreparedStatement] {pstm-100015} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,546 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+DEBUG: Extracting OIDs 2.5.4.11 from the following DN:CN=FDS Hosted Infra Test1, OU=FDSID - VSJADMTEST0001, OU=Division - IAS Product Marketing, OU=Company - VeriSign Japan K.K., OU=VIP FDS Hosted Service CA, O=VeriSign Japan K.K., C=JP
+2010-07-13 17:29:52,859 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,859 [java.sql.Connection] {conn-100016} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,859 [java.sql.Connection] {conn-100016} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,859 [java.sql.PreparedStatement] {pstm-100017} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,859 [java.sql.PreparedStatement] {pstm-100017} Parameters: [2010-07-13 17:29:52.859, sslrt1, DEBUG: Extracting OIDs 2.5.4.11 from the following DN:CN=FDS Hosted Infra Test1, OU=FDSID - VSJADMTEST0001, OU=Division - IAS Product Marketing, OU=Company - VeriSign Japan K.K., OU=VIP FDS Hosted Service CA, O=VeriSign Japan K.K., C=JP]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,859 [java.sql.PreparedStatement] {pstm-100017} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,875 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: OU list : VIP FDS Hosted Service CA
+2010-07-13 17:29:52,953 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,953 [java.sql.Connection] {conn-100018} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,968 [java.sql.Connection] {conn-100018} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,968 [java.sql.PreparedStatement] {pstm-100019} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,968 [java.sql.PreparedStatement] {pstm-100019} Parameters: [2010-07-13 17:29:52.953, sslrt1, INFO: OU list : VIP FDS Hosted Service CA]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:52,968 [java.sql.PreparedStatement] {pstm-100019} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,000 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: OU list : Company - VeriSign Japan K.K.
+2010-07-13 17:29:53,000 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,000 [java.sql.Connection] {conn-100020} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,000 [java.sql.Connection] {conn-100020} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,000 [java.sql.PreparedStatement] {pstm-100021} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,000 [java.sql.PreparedStatement] {pstm-100021} Parameters: [2010-07-13 17:29:53.0, sslrt1, INFO: OU list : Company - VeriSign Japan K.K.]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,000 [java.sql.PreparedStatement] {pstm-100021} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: OU list : Division - IAS Product Marketing
+2010-07-13 17:29:53,046 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.Connection] {conn-100022} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.Connection] {conn-100022} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.PreparedStatement] {pstm-100023} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.PreparedStatement] {pstm-100023} Parameters: [2010-07-13 17:29:53.046, sslrt1, INFO: OU list : Division - IAS Product Marketing]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.PreparedStatement] {pstm-100023} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: OU list : FDSID - VSJADMTEST0001
+2010-07-13 17:29:53,046 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.Connection] {conn-100024} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.Connection] {conn-100024} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.PreparedStatement] {pstm-100025} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.PreparedStatement] {pstm-100025} Parameters: [2010-07-13 17:29:53.046, sslrt1, INFO: OU list : FDSID - VSJADMTEST0001]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,046 [java.sql.PreparedStatement] {pstm-100025} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,062 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: Client info : VSJADMTEST0001
+2010-07-13 17:29:53,062 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,062 [java.sql.Connection] {conn-100026} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,062 [java.sql.Connection] {conn-100026} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,062 [java.sql.PreparedStatement] {pstm-100027} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,062 [java.sql.PreparedStatement] {pstm-100027} Parameters: [2010-07-13 17:29:53.062, sslrt1, INFO: Client info : VSJADMTEST0001]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,062 [java.sql.PreparedStatement] {pstm-100027} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,062 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,156 [com.ibatis.common.jdbc.SimpleDataSource] Created connection 11299397.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,156 [java.sql.Connection] {conn-100028} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,171 [java.sql.Connection] {conn-100028} Preparing Statement:                   select             id as id,             client_cert_info as client_cert_info,             route_from_router as route_from_router,             route_to_host as route_to_host,             route_to_port as route_to_port,             log_level as log_level         from             ssl_router_routing_t         where             client_cert_info = ? and             route_from_router = ? and             enabled <> 0 and rownum=1         order by             route_to_host              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,171 [java.sql.PreparedStatement] {pstm-100029} Executing Statement:                   select             id as id,             client_cert_info as client_cert_info,             route_from_router as route_from_router,             route_to_host as route_to_host,             route_to_port as route_to_port,             log_level as log_level         from             ssl_router_routing_t         where             client_cert_info = ? and             route_from_router = ? and             enabled <> 0 and rownum=1         order by             route_to_host              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,171 [java.sql.PreparedStatement] {pstm-100029} Parameters: [VSJADMTEST0001, sslrt1]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,171 [java.sql.PreparedStatement] {pstm-100029} Types: [java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,187 [java.sql.ResultSet] {rset-100030} ResultSet
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,234 [java.sql.ResultSet] {rset-100030} Header: [ID, CLIENT_CERT_INFO, ROUTE_FROM_ROUTER, ROUTE_TO_HOST, ROUTE_TO_PORT, LOG_LEVEL]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,234 [java.sql.ResultSet] {rset-100030} Result: [1, VSJADMTEST0001, sslrt1, t-yama-cent01.verisign.co.jp, 8080, 8]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,234 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 11299397 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: targetHost : t-yama-cent01.verisign.co.jp
+2010-07-13 17:29:53,250 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,250 [java.sql.Connection] {conn-100031} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,250 [java.sql.Connection] {conn-100031} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,250 [java.sql.PreparedStatement] {pstm-100032} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,250 [java.sql.PreparedStatement] {pstm-100032} Parameters: [2010-07-13 17:29:53.25, sslrt1, INFO: targetHost : t-yama-cent01.verisign.co.jp]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,250 [java.sql.PreparedStatement] {pstm-100032} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,281 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: targetPort : 8080
+2010-07-13 17:29:53,281 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,281 [java.sql.Connection] {conn-100033} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,281 [java.sql.Connection] {conn-100033} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,281 [java.sql.PreparedStatement] {pstm-100034} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,281 [java.sql.PreparedStatement] {pstm-100034} Parameters: [2010-07-13 17:29:53.281, sslrt1, INFO: targetPort : 8080]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,281 [java.sql.PreparedStatement] {pstm-100034} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,296 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+INFO: loglvl     : 8
+2010-07-13 17:29:53,312 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,312 [java.sql.Connection] {conn-100035} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,312 [java.sql.Connection] {conn-100035} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,312 [java.sql.PreparedStatement] {pstm-100036} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,312 [java.sql.PreparedStatement] {pstm-100036} Parameters: [2010-07-13 17:29:53.296, sslrt1, INFO: loglvl     : 8]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,312 [java.sql.PreparedStatement] {pstm-100036} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,328 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+DEBUG: jp.co.verisign.sslrouter.Connect$Request@a613f8
+GET /axis/webservices/VerifyEventsService?wsdl HTTP/1.1
+2010-07-13 17:29:53,328 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,328 [java.sql.Connection] {conn-100037} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,328 [java.sql.Connection] {conn-100037} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,328 [java.sql.PreparedStatement] {pstm-100038} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,328 [java.sql.PreparedStatement] {pstm-100038} Parameters: [2010-07-13 17:29:53.328, sslrt1, DEBUG: jp.co.verisign.sslrouter.Connect$Request@a613f8
+GET /axis/webservices/VerifyEventsService?wsdl HTTP/1.1]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,328 [java.sql.PreparedStatement] {pstm-100038} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,328 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,359 [org.apache.commons.httpclient.HttpConnection] Open connection to t-yama-cent01.verisign.co.jp:8080
+ : org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:692)
+2010-07-13 17:29:53,359 [httpclient.wire.header] >> "GET /axis/webservices/VerifyEventsService?wsdl HTTP/1.1[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,375 [org.apache.commons.httpclient.HttpMethodBase] Adding Host request header
+ : org.apache.commons.httpclient.HttpMethodBase.addHostRequestHeader(HttpMethodBase.java:1352)
+2010-07-13 17:29:53,390 [httpclient.wire.header] >> "User-Agent: Java/1.6.0_20[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] >> "Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] >> "Connection: keep-alive[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] >> "Host: t-yama-cent01.verisign.co.jp:8080[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] >> "[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] << "HTTP/1.1 200 OK[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] << "HTTP/1.1 200 OK[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] << "Server: Apache-Coyote/1.1[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] << "Content-Type: text/xml;charset=utf-8[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] << "Transfer-Encoding: chunked[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] << "Date: Tue, 13 Jul 2010 08:31:57 GMT[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,390 [httpclient.wire.header] << "[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+DEBUG: GET /axis/webservices/VerifyEventsService?wsdl 1.1
+User-Agent: Java/1.6.0_20
+
+Host: dldpc236.verisign.co.jp
+
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+Connection: keep-alive
+
+
+2010-07-13 17:29:53,390 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,390 [java.sql.Connection] {conn-100039} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,390 [java.sql.Connection] {conn-100039} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,390 [java.sql.PreparedStatement] {pstm-100040} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,390 [java.sql.PreparedStatement] {pstm-100040} Parameters: [2010-07-13 17:29:53.39, sslrt1, DEBUG: GET /axis/webservices/VerifyEventsService?wsdl 1.1
+User-Agent: Java/1.6.0_20
+
+Host: dldpc236.verisign.co.jp
+
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+Connection: keep-alive
+
+]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,390 [java.sql.PreparedStatement] {pstm-100040} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,406 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+DEBUG: HTTP/1.1 200 OK
+
+2010-07-13 17:29:53,406 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,406 [java.sql.Connection] {conn-100041} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,406 [java.sql.Connection] {conn-100041} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,406 [java.sql.PreparedStatement] {pstm-100042} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,406 [java.sql.PreparedStatement] {pstm-100042} Parameters: [2010-07-13 17:29:53.406, sslrt1, DEBUG: HTTP/1.1 200 OK
+]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,406 [java.sql.PreparedStatement] {pstm-100042} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+DEBUG: Server: Apache-Coyote/1.1
+
+2010-07-13 17:29:53,453 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.Connection] {conn-100043} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.Connection] {conn-100043} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.PreparedStatement] {pstm-100044} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.PreparedStatement] {pstm-100044} Parameters: [2010-07-13 17:29:53.453, sslrt1, DEBUG: Server: Apache-Coyote/1.1
+]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.PreparedStatement] {pstm-100044} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+DEBUG: Content-Type: text/xml;charset=utf-8
+
+2010-07-13 17:29:53,453 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.Connection] {conn-100045} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.Connection] {conn-100045} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.PreparedStatement] {pstm-100046} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.PreparedStatement] {pstm-100046} Parameters: [2010-07-13 17:29:53.453, sslrt1, DEBUG: Content-Type: text/xml;charset=utf-8
+]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,453 [java.sql.PreparedStatement] {pstm-100046} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+DEBUG: Transfer-Encoding: chunked
+
+2010-07-13 17:29:53,468 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.Connection] {conn-100047} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.Connection] {conn-100047} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.PreparedStatement] {pstm-100048} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.PreparedStatement] {pstm-100048} Parameters: [2010-07-13 17:29:53.468, sslrt1, DEBUG: Transfer-Encoding: chunked
+]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.PreparedStatement] {pstm-100048} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+DEBUG: Date: Tue, 13 Jul 2010 08:31:57 GMT
+
+2010-07-13 17:29:53,468 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.Connection] {conn-100049} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.Connection] {conn-100049} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.PreparedStatement] {pstm-100050} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.PreparedStatement] {pstm-100050} Parameters: [2010-07-13 17:29:53.468, sslrt1, DEBUG: Date: Tue, 13 Jul 2010 08:31:57 GMT
+]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,468 [java.sql.PreparedStatement] {pstm-100050} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,484 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,484 [org.apache.commons.httpclient.HttpMethodBase] Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+ : org.apache.commons.httpclient.HttpMethodBase.getResponseBody(HttpMethodBase.java:682)
+2010-07-13 17:29:53,484 [org.apache.commons.httpclient.HttpMethodBase] Buffering response body
+ : org.apache.commons.httpclient.HttpMethodBase.getResponseBody(HttpMethodBase.java:685)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "1"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "0"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "1"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "6"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "[\r]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.2-b05-RC1. --><!-- Generated by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.2-b05-RC1. --><definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://verify.services.verisign.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://verify.services.verisign.com/" name="VerifyEventsServiceService">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<types>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<xsd:schema>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<xsd:import namespace="http://verify.services.verisign.com/" schemaLocation="http://t-yama-cent01.verisign.co.jp:8080/axis/webservices/VerifyEventsService?xsd=1"></xsd:import>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</xsd:schema>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</types>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifySync">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifySync"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifySyncResponse">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifySyncResponse"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifyAsync">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifyAsync"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifyAsyncResponse">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifyAsyncResponse"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifySimulatedSync">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifySimulatedSync"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifySimulatedSyncResponse">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifySimulatedSyncResponse"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifyFraud">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifyFraud"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifyFraudResponse">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifyFraudResponse"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifyNotFraud">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifyNotFraud"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<message name="verifyNotFraudResponse">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<part name="parameters" element="tns:verifyNotFraudResponse"></part>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</message>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<portType name="VerifyEventsService">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<operation name="verifySync">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<input message="tns:verifySync"></input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<output message="tns:verifySyncResponse"></output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<operation name="verifyAsync">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<input message="tns:verifyAsync"></input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<output message="tns:verifyAsyncResponse"></output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<operation name="verifySimulatedSync">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<input message="tns:verifySimulatedSync"></input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<output message="tns:verifySimulatedSyncResponse"></output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<operation name="verifyFraud">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<input message="tns:verifyFraud"></input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<output message="tns:verifyFraudResponse"></output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<operation name="verifyNotFraud">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<input message="tns:verifyNotFraud"></input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<output message="tns:verifyNotFraudResponse"></output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</portType>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<binding name="VerifyEventsServicePortBinding" type="tns:VerifyEventsService">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"></soap:binding>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<operation name="verifySync">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<soap:operation soapAction=""></soap:operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<operation name="verifyAsync">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,484 [httpclient.wire.content] << "<soap:operation soapAction=""></soap:operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<operation name="verifySimulatedSync">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:operation soapAction=""></soap:operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<operation name="verifyFraud">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:operation soapAction=""></soap:operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<operation name="verifyNotFraud">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:operation soapAction=""></soap:operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</input>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:body use="literal"></soap:body>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</output>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</operation>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</binding>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<service name="VerifyEventsServiceService">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<port name="VerifyEventsServicePort" binding="tns:VerifyEventsServicePortBinding">[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "<soap:address location="http://t-yama-cent01.verisign.co.jp:8080/axis/webservices/VerifyEventsService"></soap:address>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</port>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</s"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "ervice>[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "</definitions>"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "[\r]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "0"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "[\r]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "[\r]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:84)
+2010-07-13 17:29:53,500 [httpclient.wire.content] << "[\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [httpclient.wire.header] << "[\r][\n]"
+ : org.apache.commons.httpclient.Wire.wire(Wire.java:70)
+2010-07-13 17:29:53,500 [org.apache.commons.httpclient.HttpMethodBase] Should NOT close connection in response to directive: keep-alive
+ : org.apache.commons.httpclient.HttpMethodBase.shouldCloseConnection(HttpMethodBase.java:1014)
+2010-07-13 17:29:53,500 [org.apache.commons.httpclient.HttpConnection] Releasing connection back to connection manager.
+ : org.apache.commons.httpclient.HttpConnection.releaseConnection(HttpConnection.java:1178)
+2010-07-13 17:29:53,593 [com.ibatis.common.jdbc.SimpleDataSource] Created connection 17153368.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,593 [java.sql.Connection] {conn-100051} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,593 [java.sql.Connection] {conn-100051} Preparing Statement:                   insert into ssl_router_transaction_log_t             (                 log_datetime,                 log_appserver,                 log_client_cert_info,                 log_elapsed_time_ms,                 log_level,                 log_data             )             values             (                 ?,                 ?,                 ?,                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,593 [java.sql.PreparedStatement] {pstm-100052} Executing Statement:                   insert into ssl_router_transaction_log_t             (                 log_datetime,                 log_appserver,                 log_client_cert_info,                 log_elapsed_time_ms,                 log_level,                 log_data             )             values             (                 ?,                 ?,                 ?,                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,593 [java.sql.PreparedStatement] {pstm-100052} Parameters: [2010-07-13 17:29:52.859, t-yama-cent01.verisign.co.jp:8080, VSJADMTEST0001, 641, 0, nullGET /axis/webservices/VerifyEventsService?wsdl 1.1
+User-Agent: Java/1.6.0_20
+
+Host: dldpc236.verisign.co.jp
+
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/xml;charset=utf-8
+Transfer-Encoding: chunked
+Date: Tue, 13 Jul 2010 08:31:57 GMT
+
+1016
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.2-b05-RC1. --><!-- Generated by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.2-b05-RC1. --><definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://verify.services.verisign.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://verify.services.verisign.com/" name="VerifyEventsServiceService">
+<types>
+<xsd:schema>
+<xsd:import namespace="http://verify.services.verisign.com/" schemaLocation="http://t-yama-cent01.verisign.co.jp:8080/axis/webservices/VerifyEventsService?xsd=1"></xsd:import>
+</xsd:schema>
+</types>
+<message name="verifySync">
+<part name="parameters" element="tns:verifySync"></part>
+</message>
+<message name="verifySyncResponse">
+<part name="parameters" element="tns:verifySyncResponse"></part>
+</message>
+<message name="verifyAsync">
+<part name="parameters" element="tns:verifyAsync"></part>
+</message>
+<message name="verifyAsyncResponse">
+<part name="parameters" element="tns:verifyAsyncResponse"></part>
+</message>
+<message name="verifySimulatedSync">
+<part name="parameters" element="tns:verifySimulatedSync"></part>
+</message>
+<message name="verifySimulatedSyncResponse">
+<part name="parameters" element="tns:verifySimulatedSyncResponse"></part>
+</message>
+<message name="verifyFraud">
+<part name="parameters" element="tns:verifyFraud"></part>
+</message>
+<message name="verifyFraudResponse">
+<part name="parameters" element="tns:verifyFraudResponse"></part>
+</message>
+<message name="verifyNotFraud">
+<part name="parameters" element="tns:verifyNotFraud"></part>
+</message>
+<message name="verifyNotFraudResponse">
+<part name="parameters" element="tns:verifyNotFraudResponse"></part>
+</message>
+<portType name="VerifyEventsService">
+<operation name="verifySync">
+<input message="tns:verifySync"></input>
+<output message="tns:verifySyncResponse"></output>
+</operation>
+<operation name="verifyAsync">
+<input message="tns:verifyAsync"></input>
+<output message="tns:verifyAsyncResponse"></output>
+</operation>
+<operation name="verifySimulatedSync">
+<input message="tns:verifySimulatedSync"></input>
+<output message="tns:verifySimulatedSyncResponse"></output>
+</operation>
+<operation name="verifyFraud">
+<input message="tns:verifyFraud"></input>
+<output message="tns:verifyFraudResponse"></output>
+</operation>
+<operation name="verifyNotFraud">
+<input message="tns:verifyNotFraud"></input>
+<output message="tns:verifyNotFraudResponse"></output>
+</operation>
+</portType>
+<binding name=]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,593 [java.sql.PreparedStatement] {pstm-100052} Types: [java.sql.Timestamp, java.lang.String, java.lang.String, java.lang.Long, java.lang.Integer, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,609 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 17153368 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+DEBUG: jp.co.verisign.sslrouter.Connect$BadRequestException: header too short:
+	at jp.co.verisign.sslrouter.Connect$Request.header(Connect.java:552)
+	at jp.co.verisign.sslrouter.Connect$Request.<init>(Connect.java:538)
+	at jp.co.verisign.sslrouter.Connect.run(Connect.java:213)
+
+2010-07-13 17:29:53,718 [com.ibatis.common.jdbc.SimpleDataSource] Checked out connection 29346106 from pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,718 [java.sql.Connection] {conn-100053} Connection
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,718 [java.sql.Connection] {conn-100053} Preparing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,718 [java.sql.PreparedStatement] {pstm-100054} Executing Statement:                   insert into ssl_router_audit_log_t             (                 log_datetime,                 log_appserver,                 log_data             )             values             (                 ?,                 ?,                 ?             )              
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,718 [java.sql.PreparedStatement] {pstm-100054} Parameters: [2010-07-13 17:29:53.718, sslrt1, DEBUG: jp.co.verisign.sslrouter.Connect$BadRequestException: header too short:
+	at jp.co.verisign.sslrouter.Connect$Request.header(Connect.java:552)
+	at jp.co.verisign.sslrouter.Connect$Request.<init>(Connect.java:538)
+	at jp.co.verisign.sslrouter.Connect.run(Connect.java:213)
+]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,734 [java.sql.PreparedStatement] {pstm-100054} Types: [java.sql.Timestamp, java.lang.String, java.lang.String]
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
+2010-07-13 17:29:53,734 [com.ibatis.common.jdbc.SimpleDataSource] Returned connection 29346106 to pool.
+ : com.ibatis.common.logging.jakarta.JakartaCommonsLoggingImpl.debug(JakartaCommonsLoggingImpl.java:27)
